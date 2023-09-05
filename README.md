@@ -11,9 +11,34 @@ npm install -D tailwindcss // tailwindcss and create tailwind.config.js : npx ta
 
 ## install hardhat:
 
+npm install --save-dev hardhat
 npx hardhat
+
+For testing (mocha)
+npm install --save-dev mocha
+npm install mocha chai
+
 in hardat install:
 npm install @openzeppelin/contracts
+
+Deploying your contracts
+npx hardhat run
+
+For compile contract:
+npx hardhat compile
+
+For test contract:
+npx hardhat test
+
+For deploy contract:
+npx hardhat run scripts/deploy.js --network localhost
+
+install Openzeppelin:
+npm install @openzeppelin/contracts
+
+## install locally (recommended)
+
+npm install dotenv --save
 
 I create one contract Nft and one test for it.
 I want try TDD methode for this project.
